@@ -46,8 +46,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem 'devise'
-gem 'pundit'
-gem 'sidekiq'
-gem 'redis'
-
+gem "devise"
+gem "pundit"
+gem "sidekiq"
+gem "redis"
