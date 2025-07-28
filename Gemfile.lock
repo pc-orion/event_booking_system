@@ -180,7 +180,11 @@ GEM
     parser (3.3.7.3)
       ast (~> 2.4.1)
       racc
-    pg (1.5.9)
+    pg (1.6.0)
+    pg (1.6.0-aarch64-linux)
+    pg (1.6.0-arm64-darwin)
+    pg (1.6.0-x86_64-darwin)
+    pg (1.6.0-x86_64-linux)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -190,8 +194,6 @@ GEM
       stringio
     puma (6.6.0)
       nio4r (~> 2.0)
-    pundit (2.5.0)
-      activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.8.1)
     rack (3.1.12)
@@ -345,9 +347,8 @@ DEPENDENCIES
   debug
   devise
   kamal
-  pg (~> 1.1)
+  pg (~> 1.6)
   puma (>= 5.0)
-  pundit
   rails (~> 8.0.2)
   redis
   rubocop-rails-omakase
